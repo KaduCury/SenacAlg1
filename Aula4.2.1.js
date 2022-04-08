@@ -21,3 +21,9 @@ if (temArrozT1 == 's' ){
         alert("Você comprou dois kg de Lentilha e um kg de Linguiça Defumada e o valor da compra foi de R$" + valorGasto);
     }  
 } 
+
+//Imagine a seguinte situação: sua mãe pede para você ir ao mercado fazer compras:
+//– Filho, se tiver arroz tipo1, traga 1 kg dele e, com o troco, traga 2 kg de feijão 
+//preto. Caso tenha apenas arroz tipo 2, traga 3 kg dele e só 1 kg de feijão branco.
+//– Mãe, e se não tiver arroz? – você pergunta. 
+// – Nesse caso, filho, traga 2 kg de lentilha e 1 kg de linguiça defumada.

@@ -1,1 +1,1 @@
-alert("My first codeline in the Algorithm's 1 class!")
+alert("My first codeline in the Algorithm's 1 class!");
