@@ -1,7 +1,7 @@
 var nome = [[],[]];
 for (linha=0; linha<nome.length; linha++){
-    for(coluna=0; coluna<3; coluna++){
-        nome[linha][coluna] = prompt("Insira um nome:")
+    for(colna=0; colna<3; colna++){
+        nome[linha][colna] = prompt("Insira um nome:")
     }
 }
 alert(nome);

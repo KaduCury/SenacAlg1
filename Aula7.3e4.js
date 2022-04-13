@@ -48,7 +48,8 @@ for (colna=0; colna<11; colna++){
 //}
         for (linha=1; linha<media.length; linha++){
             if (disci==media[linha][0]){
-                alert("A média do "+nome+" na disciplina "+disci+" é "+media[linha][colna]+" e está "+situa[linha][colna]+".");
+                alert("A média do "+nome+" na disciplina "+disci+" é "+media[linha][colna]+
+                " e está "+situa[linha][colna]+".");
                 contr = 1;
             }
         }
