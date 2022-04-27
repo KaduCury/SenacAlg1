@@ -1,0 +1,12 @@
+numA = prompt("Insira o número A: ");
+numB = prompt("Insira o número B: ");
+soma = parseInt(numA)+parseInt(numB);
+alert("A soma é "+soma);
+subtracao = parseInt(numA)-parseInt(numB);
+alert("A subtração é "+subtracao);
+multiplicacao = parseInt(numA)*parseInt(numB);
+alert("A multiplicação é "+multiplicacao);
+divisao = parseInt(numA)/parseInt(numB);
+alert("A divisão é "+divisao);
+dobroDaSoma = (soma)*2;
+alert("O dobro da soma é "+dobroDaSoma);
