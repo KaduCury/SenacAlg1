@@ -1,9 +1,11 @@
 var pesquisar = 's';
 while (pesquisar == 's'){
-    alert("Descubra qual combustível é o mais vantajoso!\n\nObs.: Separe os centavos com ponto(.) e não com vírgula(,) para o funcionamento correto do programa.");
+    alert("Descubra qual combustível é o mais vantajoso!");
     gasolina = prompt("Insira o valor do litro da Gasolina: ");
     alcool = prompt("Insira o valor do litro do Álcool: ");
-    indice = alcool/gasolina;
+    gas = parseFloat(gasolina.replace(',', '.'));
+    alc = parseFloat(alcool.replace(',', '.'));
+    indice = alc/gas;
     if (indice>0.7){
         alert("Abastecer com Gasolina é mais econômico.");
     } else if (indice<0.7){
