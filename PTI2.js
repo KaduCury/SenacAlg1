@@ -6,13 +6,15 @@ while (pesquisar == 's'){
     gas = parseFloat(gasolina.replace(',', '.'));
     alc = parseFloat(alcool.replace(',', '.'));
     indice = alc/gas;
-    if (indice>0.7){
+    if (indice.toFixed(2)>0.7){
         alert("Abastecer com Gasolina é mais econômico.");
-    } else if (indice<0.7){
+    } else if (indice.toFixed(2)<0.7){
         alert("Abastecer com Álcool é mais econômico.");
     } else {
         alert("Tanto faz abastecer com Álcool ou Gasolina.");
     }
     pesquisar = prompt("Deseja pesquisar novamente? Responda com 's' caso deseje efetuar nova pesquisa.");
+    console.clear();
 }
 alert("Obrigado! Volte sempre!");
+ 
