@@ -1,0 +1,22 @@
+<html>
+    <script>
+        function verificaNumeroPrimo (numero) {
+            var divisores = 0;
+                        
+            for (var contador = 1; contador <= numero; contador++) {
+                if (numero % contador == 0) {
+                    divisores++;
+                    if (divisores > 2) {
+                        break;
+                    }
+                }
+            }
+            
+            if (divisores == 2) {
+                console.log('O número '+ numero +' é primo.'/* (TIRAR if divisores>2 e break!!!) Pois é dividido apenas 2 divisores (por 1 e por '+ numero +').'*/);
+            } else {
+                console.log('O número '+ numero +' não é primo.'/* (TIRAR if divisores>2 e break!!!) Pois é dividido por '+ divisores +' divisores.'*/);
+            }
+        }
+    </script>
+</html>

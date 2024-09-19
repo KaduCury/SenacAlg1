@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width"> 
+        <meta name="viewport" content="initial-scale=1">
+        <meta name="viewport" content="maximum-scale=2">
+        <title>PTI de Linguagens de Servidor</title>
+    </head>
+    <body>
+        <h1>Cálculo de IMC</h1>
+        <?php
+            require 'calculoIMC.php';
+        ?>
+        <form method="post">
+            <label for="peso">Insira o peso: </label>
+            <input name="peso_usuario" id="campo_peso" type="number" required/>
+            <label for="altura">Insira a altura: </label>
+            <input name="altura_usuario" id="campo_altura" type="number" required/>
+            <button type="submit">Enviar</button>
+         </form>
+    </body>
+</html>
