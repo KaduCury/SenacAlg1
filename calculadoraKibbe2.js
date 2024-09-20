@@ -258,7 +258,7 @@ function calculateKibbeType() {
     }
 
     // Exibir o resultado
-    console.log(`Você se encaixa no tipo de corpo Kibbe: ${result}`);
+    alert(`Você se encaixa no tipo de corpo Kibbe: ${result}`);
 }
 
 // Chamar a função de cálculo após todas as perguntas
